@@ -318,7 +318,7 @@ function assessment(userName) {
     }
     // 日付を足す
     let today = new Date();
-    sumOfCharCode = sumOfCharCode + (today.getFullYear() * 10000 + ( today.getMonth() + 1) * 100) +today.getDate() );
+    sumOfCharCode = sumOfCharCode + (today.getFullYear() * 10000 + (( today.getMonth() + 1) * 100) +today.getDate() );
 
     //文字のコード番号の合計を回答の数で割って添字の数値を求める
     const index = sumOfCharCode % answers.length;
