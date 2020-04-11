@@ -35,13 +35,13 @@ assessmentButton.onclick = ()　=> {
     removeAllChildren(tweetDivided);
     const anchor = document.createElement('a');
     const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
-        + encodeURIComponent('あなたのいいところ')
+        + encodeURIComponent('艦娘ランダム選択')
         + '&ref_src=twsrc%5Etfw';
 
     anchor.setAttribute('href', hrefValue);
     anchor.className = 'twitter-hashtag-button';
     anchor.setAttribute('data-text', result);
-    anchor.innerText = 'Tweet #あなたのいところ';
+    anchor.innerText = 'Tweet #艦娘ランダム選択';
     tweetDivided.appendChild(anchor);
 
     //widgets.jsの設定
