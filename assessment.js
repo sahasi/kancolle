@@ -322,7 +322,7 @@ function assessment(userName) {
 
     //文字のコード番号の合計を回答の数で割って添字の数値を求める
     const index = sumOfCharCode % answers.length;
-    let result = "今日の艦娘は"  + answers[index] + "です！";
+    let result = "今日の秘書艦は、「"  + answers[index] + "」です！";
 
     // {userName}をユーザの名前に置き換える
     // result = result.replace(/\{userName\}/g, userName);
